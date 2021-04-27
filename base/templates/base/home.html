@@ -1,6 +1,141 @@
-{%load static %}
 
-<link href="{% static '/css/main.css'%}" rel="stylesheet" type="text/css">
+{% load static %}
 
+<!--
 <h1>hello</h1>
 
+<img src="{% static 'images/profile_pic.jpeg' %}">
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aswin k ashok</title>
+	<link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+</head>
+<body>
+	<br>
+	<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card card-body h-100 border-info" id="profile-wrapper"><img id="profile-pic" src="{% static 'images/profile_pic.jpeg' %}"> <br>
+				<h4>Hi I'm aswin!</h4>
+				<p>nice to meet you</p>
+			</div>
+		</div>
+
+
+		<div class="col-md-9">
+			<div class="card card-body h-100 border-info"><h5>about me</h5> <br>
+				<p>Hello, I'm Aswin k Ashok living in Kerala 22 years old passionate guy with high personal morals and integrity. 				Currently looking forward to join a progressive and passionate organisation.				Self motivated and enthusiastic, read along to know me more
+				</p>
+			</div>
+		</div>
+	</div>
+	<br>
+
+		<div class="row">
+		<div class="col-md-6">
+			<div class="card card-body h-100"><h5>personal info</h5><br>
+				<li>FULL NAME : ASWIN K ASHOK</li>
+				<li>SEX : MALE</li>
+				<li>DATE OF BIRTH : 22/04/1999</li>
+				<li>ADDRESS : KALATHIL HOUSE AROOR P.O, ALAPPUZHA PIN:688534. </li>
+				<li>PHONE NUMBER : 8089414817</li>
+				<li>EMAIL ID : aswinkashok0@gmail.com</li>
+				</div>
+		</div>
+		<div class="col-md-6">
+			<div class="card card-body h-100"><h5>academics</h5><br>
+
+				<li><b>BACHLOR IN COMPUTER APPLICATION(BCA)</b><br> university: mahathma gandhi university, india <br> the cochin college(2019)</li>
+				<br>
+				<br>
+				<li><b>CENTRAL BOARD OF SECONDARY EDUCATION</b><br> TD HSS THURAVOOR(2016)</li>
+				<br>
+				<br>
+				<li><b>SECONDARY SCHOOL LEAVING CERTIFICATE</b><br> ST AUGUSTINES HSS AROOR(2014)</li>
+			</div>
+		</div>
+	</div>
+	<br>
+
+	<div class="row">
+		<div class="col-md-6">
+			<div class="card card-body h-100"><h5>skills known</h5><br>
+					<b>languages known</b><br>
+					<li>english</li>
+					<li>malayalam</li>
+					<li>hindi</li>
+					<br>
+
+					<b>programing skills</b><br>
+					<li>python</li>
+					<li>c++</li>
+					<li>c</li>
+					<li>java</li>
+					<li>dbms</li>
+					<li>html(css,bootstrap)</li>
+					<li>javascript</li>
+					<li>git</li>
+					<li>python with django framework</li>
+					<br>
+
+					<b>extra perks</b><br>
+					<li>50 wpm typing speed (touch typing)</li>
+			</div>
+		</div>
+
+
+		<div class="col-md-6">
+			<div class="card card-body h-100"><h5>projects and experiance</h5><br>
+				<h6>academic projects</h6>
+				<li>CLINIC INVENTORY MANAGEMENT SYSTEM(mini project)</li>
+				<li>PC HARDWARE ASSEMBLER (main project)</li><br>
+				<h6>non academic projects</h6>
+				<li>python django TODO app</li>
+				<li>python django INVENTORY ORGANISER</li><br>
+
+				<h6>experiance</h6>
+				<li>undergone 3 month python django training at SPECTRUM SOFTTECH SOLUTIONS</li>
+			</div>
+		</div>
+	</div>
+	<br>
+
+	<div class="row">
+		<div class="col-md-6">
+			<div class="card card-body h-100"><h5>hobbies</h5><br>
+				<li>cycling</li>
+				<li>reading</li>
+				<li>traveling</li>
+				<li>coding</li>
+			</div>
+		</div>
+
+
+		<div class="col-md-6">
+			<div class="card card-body h-100"><h5>social links</h5><br>
+				<ul class="social-links">
+					<li><a href="https://www.linkedin.com/in/aswin-k-ashok-99034b1b7/"><img class="social" src="{% static 'images/linkedin.png' %}"></a></li>
+					<li><a href="https://github.com/Aswin-k-ashok"><img class="social" src="{% static 'images/github.png' %}"></a></li>
+					<li><a href="https://www.facebook.com/aswinblock/"><img class="social" src="{% static 'images/facebook.png' %}"></a></li>
+					<li><a href="https://www.instagram.com/loner.____/"><img class="social" src="{% static 'images/instagram.png' %}"></a></li>
+					<li><img class="social" src="{% static 'images/twitter.png' %}"></a></li>
+					<li><a href="https://wa.me/qr/FYWIS6DAFTDMK1"><img class="social" src="{% static 'images/whatsapp.png' %}"></a></li>
+					<li><a href="https://www.strava.com/athletes/72540388"><img class="social" src="{% static 'images/Strava.png' %}"></a></li>
+				</ul>
+
+			</div>
+		</div>
+
+	</div>
+	<br>
+
+	</div>
+</body>
+</html>
